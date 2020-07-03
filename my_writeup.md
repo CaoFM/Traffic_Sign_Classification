@@ -37,7 +37,7 @@ signs data set:
 
 I used numpy histogram to visualize the number of images of each class. From the histogram we can tell the distribution is very imbalanced.
 
-![alt text]("../my_plots/data_distribution.png")
+![alt text](./my_plots/data_distribution.png)
 
 ### Design and Test a Model Architecture
 
@@ -100,8 +100,15 @@ Instead, I went out and took several traffic signs with my phone and resized the
 
 I chose these 5 images and made sure they are each of a applicable classification from the training set (stop, yield, wild animals crossing, pedestrains, traffic signals) 
 
-![alt text]["../my_img/stop_sized.jpg"] ![alt text]["../my_img/yield_sized.jpg"] ![alt text]["../my_img/dear_cross_sized.jpg"] 
-![alt text]["../my_img/pedestrain_sized.jpg"] ![alt text]["../my_img/light_ahead_sized.jpg"]
+![alt text](./my_img/stop_sized.jpg)
+
+![alt text](./my_img/yield_sized.jpg)
+
+![alt text](./my_img/dear_cross_sized.jpg)
+
+![alt text](./my_img/pedestrain_sized.jpg) 
+
+![alt text](./my_img/light_ahead_sized.jpg)
 
 All images can be difficult to classify becasue they are mostly of a different shape comparing to the German traffic signs, even though the content of them convey same information.
 
@@ -126,7 +133,7 @@ This is no surprise to me for the reason described in last topic. The yield sign
 
 Here are the top 5 probabilities for each image determined by the model.
 
-![alt text]["../my_img/stop_sized.jpg"] 
+![alt text](./my_img/stop_sized.jpg)
 Image of (Stop) classified as:
 Speed limit (50km/h) : 0.806144
 Priority road : 0.105460
@@ -135,7 +142,7 @@ Speed limit (60km/h) : 0.019392
 Speed limit (30km/h) : 0.006571
 
 
-![alt text]["../my_img/yield_sized.jpg"] 
+![alt text](./my_img/yield_sized.jpg)
 Image of (Yield) classified as:
 Yield : 0.615168
 Keep right : 0.383962
@@ -144,7 +151,7 @@ Road work : 0.000059
 Speed limit (50km/h) : 0.000032
 
 
-![alt text]["../my_img/dear_cross_sized.jpg"]
+![alt text](./my_img/dear_cross_sized.jpg)
 Image of (Wild animals crossing) classified as:
 Speed limit (50km/h) : 0.989132
 Speed limit (30km/h) : 0.010867
@@ -152,7 +159,7 @@ Double curve : 0.000000
 Road work : 0.000000
 Speed limit (80km/h) : 0.000000
 
-![alt text]["../my_img/pedestrain_sized.jpg"] 
+![alt text](./my_img/pedestrain_sized.jpg) 
 Image of (Pedestrians) classified as:
 Speed limit (30km/h) : 0.999999
 Pedestrians : 0.000000
@@ -161,7 +168,7 @@ Speed limit (50km/h) : 0.000000
 Roundabout mandatory : 0.000000
 
 
-![alt text]["../my_img/light_ahead_sized.jpg"]
+![alt text](./my_img/light_ahead_sized.jpg)
 Image of (Traffic signals) classified as:
 Right-of-way at the next intersection : 0.900019
 Beware of ice/snow : 0.081681
