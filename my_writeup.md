@@ -134,47 +134,80 @@ This is no surprise to me for the reason described in last topic. The yield sign
 Here are the top 5 probabilities for each image determined by the model.
 
 ![alt text](./my_img/stop_sized.jpg)
+
 Image of (Stop) classified as:
+
 Speed limit (50km/h) : 0.806144
+
 Priority road : 0.105460
+
 Stop : 0.045420
+
 Speed limit (60km/h) : 0.019392
+
 Speed limit (30km/h) : 0.006571
 
 
 ![alt text](./my_img/yield_sized.jpg)
+
 Image of (Yield) classified as:
+
 Yield : 0.615168
+
 Keep right : 0.383962
+
 Turn left ahead : 0.000747
+
 Road work : 0.000059
+
 Speed limit (50km/h) : 0.000032
 
 
+
 ![alt text](./my_img/dear_cross_sized.jpg)
+
 Image of (Wild animals crossing) classified as:
+
 Speed limit (50km/h) : 0.989132
+
 Speed limit (30km/h) : 0.010867
+
 Double curve : 0.000000
+
 Road work : 0.000000
+
 Speed limit (80km/h) : 0.000000
 
+
 ![alt text](./my_img/pedestrain_sized.jpg) 
+
 Image of (Pedestrians) classified as:
+
 Speed limit (30km/h) : 0.999999
+
 Pedestrians : 0.000000
+
 Speed limit (20km/h) : 0.000000
+
 Speed limit (50km/h) : 0.000000
+
 Roundabout mandatory : 0.000000
 
 
 ![alt text](./my_img/light_ahead_sized.jpg)
+
 Image of (Traffic signals) classified as:
+
 Right-of-way at the next intersection : 0.900019
+
 Beware of ice/snow : 0.081681
+
 Roundabout mandatory : 0.017390
+
 Traffic signals : 0.000811
+
 Priority road : 0.000050
+
 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
